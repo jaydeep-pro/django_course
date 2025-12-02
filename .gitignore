@@ -1,0 +1,81 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ---- Virtual Environments ----
+env/
+venv/
+.venv/
+
+# ---- Django ----
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+db.sqlite3
+db.sqlite3-journal
+
+# Django static & media (generated files)
+staticfiles/
+static/
+media/
+
+.env
+.env.*
+*.env
+
+# ---- IDE & Editors ----
+# VSCode
+.vscode/
+.code-workspace
+
+# PyCharm / JetBrains
+.idea/
+*.iml
+
+# Vim
+*.swp
+
+# ---- Byte-compiled files ----
+*.so
+
+# ---- macOS ----
+.DS_Store
+
+# ---- Linux ----
+*~
+
+# ---- Logs ----
+*.log
+logs/
+
+# ---- Tests ----
+.coverage
+htmlcov/
+pytestcache/
+.tox/
+nose2-coverage/
+.cache/
+
+# ---- Pipenv / Poetry ----
+Pipfile.lock
+poetry.lock
+
+# ---- Build & packaging ----
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ---- MyPy ----
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# ---- Pytest ----
+.pytest_cache/
+
+# ---- Ruff / Black ----
+.ruff_cache/
